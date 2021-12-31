@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<!-- 
+|||| All in one SEO Pack
+-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="شبكة إعلانات العرب" />
+<meta name="keywords" content="arab,ads,اعلانات" />
+<link rel="shortcut icon" href="framework/images/favicon.png" />
+<title>ASAL - home</title>
+
+<!-- 
+|||| External style sheets (" CSS ")
+-->
+<link rel="stylesheet" type="text/css" media="screen" href="framework/css/framework.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="framework/css/style.css" />
+<!--[if IE]> <link rel="stylesheet" type="text/css" media="screen" href="framework/css/style.css" /> <![endif]-->
+
+<!-- 
+|||| External javascript plugins ("jquery")
+-->
+<script type="text/javascript" src="framework/js/framework.js"></script>
+<script type="text/javascript" src="framework/js/custom.js"></script>
+<script type="text/javascript">
+jQuery(function($){	
+	jQuery.supersized({
+		slide_interval          :   3000,
+		transition              :   1,
+		transition_speed		:	700,
+		slide_links				:	'blank',
+		slides 					:  	
+			[  
+			   	{ image : 'framework/example/supersized_1.jpg', title : 'title javascript' },
+			   	{ image : 'framework/example/supersized_2.jpg', title : 'title html5' },
+			   	{ image : 'framework/example/supersized_3.jpg', title : 'title css' },
+			   	{ image : 'framework/example/supersized_4.jpg', title : 'title php' },
+			   	{ image : 'framework/example/supersized_5.jpg', title : 'title wordpress' }
+			]
+	});
+});				
+</script>
+
+</head>
+<body>
+
+	<div id="wrap">
+		<div id="header">
+			<div id="main-header">
+				<a href="#" id="main-logo" title="back to home">ASAL FURNITURE</a>
+				<div id="navigation">
+					<ul id="nav" class="nav">
+						<li class="current"><a href="#"><strong>Home</strong><span>home page</span></a></li>
+						<li><a href="#"><strong>Gallery</strong><span>our works</span></a>
+							<ul class="sub-menu">
+							    <li><a href="#">The Company</a></li>
+							    <li><a href="#">Work</a></li>
+							    <li><a href="#">Clients</a></li>
+							    <li><a href="#">Blog</a></li>
+							    <li><a href="#">Show Case</a></li>
+							</ul>   
+						</li>
+						<li><a href="#"><strong>About</strong><span>About us</span></a>
+							<ul class="sub-menu">
+							    <li><a href="#">The Company</a></li>
+							    <li><a href="#">Work</a></li>
+							    <li><a href="#">Clients</a></li>
+							    <li><a href="#">Blog</a></li>
+							    <li><a href="#">Show Case</a></li>
+							</ul>   
+						</li>
+						<li><a href="#"><strong>Contact</strong><span>contact us</span></a>
+							<ul class="sub-menu">
+							    <li><a href="#">The Company</a></li>
+							    <li><a href="#">Work</a></li>
+							    <li><a href="#">Clients</a></li>
+							    <li><a href="#">Blog</a></li>
+							    <li><a href="#">Show Case</a></li>
+							</ul>   
+						</li>
+					</ul>
+				</div>
+			</div><!--#main-header-->
+			<div id="right-side-header">
+				<div title="Show / Hide" class="etips menu-toggle menu-toggle-off">Toggle</div>
+				<span class="info">Show / Hide</span>
+			</div><!--#right-side-header-->
+		</div><!--#header-->
+		<div id="container">
+			<div id="right-container">
+			    <a href="#" id="feature_prev" title="السابق">السابق</a>
+				<a href="#" id="feature_next" title="التالى">التالى</a>
+				<div class="content">
+					<div class="slide-features">
+						<ul id="slider-features">
+							<li class="feature contact">
+								<h2 class="head-feature">Contact us</h2>
+								<p class="info">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+									when an unknown printer took a galley of type and scrambled ..
+								</p>
+								<input class="text-field" type="text" placeholder="Name">
+								<input class="text-field" type="text" placeholder="Your Mail">
+								<textarea class="textarea" placeholder="Your message"></textarea>
+								<input class="submit" type="submit" value="Send">
+							</li>
+							<li class="feature">
+								<h2 class="head-feature">About us</h2>
+								<p class="info">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+									enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+									aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+									velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+									non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</li>
+							<li class="feature">
+								<h2 class="head-feature">Congrato</h2>
+								<p class="info">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+									Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+									when an unknown printer took a galley of type and scrambled ..
+								</p>
+							</li>
+						</ul>
+					</div><!--.slide-features-->
+				</div><!--.content-->
+			</div><!--#right-container-->
+		</div><!--#container-->
+		<div id="footer">
+		    <a id="prevslide" class=" load-item">rrr</a><a id="nextslide" class="load-item">ddd</a>
+	        <div id="progress-back" class="load-item"><div id="progress-bar"></div></div>
+			<a id="play-button"><img id="pauseplay" src="images/pause.png"/></a>
+			<ul id="slide-list"></ul>
+			<p class="copyright">All copy rights reserved - Asal © 2013</p>
+			<ul class="socials">
+				<strong>Fololow us to :</strong>
+				<li><a href="#" class="deviantart" title="deviantart">deviantart</a></li>
+				<li><a href="#" class="facebook" title="facebook">facebook</a></li>
+				<li><a href="#" class="flickr" title="flickr">flickr</a></li>
+				<li><a href="#" class="google" title="google plus">google plus</a></li>
+				<li><a href="#" class="tumblr" title="tumblr">tumblr</a></li>
+				<li><a href="#" class="twitter" title="twitter">twitter</a></li>
+				<li><a href="#" class="vimeo" title="vimeo">vimeo</a></li>
+			</ul>
+		</div><!--#footer-->
+	</div><!--#wrap-->
+
+</body>
+</html>
